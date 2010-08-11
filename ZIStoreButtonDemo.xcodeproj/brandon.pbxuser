@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ZIStoreButtonDemoAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {984, 881}}";
+			sepNavSelRange = "{779, 0}";
+			sepNavVisRange = "{0, 1130}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ZIStoreButtonDemoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1100, 236}\";\n            s = 0;\n        },\n                {\n            r = \"{1406, 446}\";\n            s = 0;\n        },\n                {\n            r = \"{1924, 351}\";\n            s = 0;\n        },\n                {\n            r = \"{2348, 165}\";\n            s = 0;\n        },\n                {\n            r = \"{2582, 205}\";\n            s = 0;\n        },\n                {\n            r = \"{2854, 118}\";\n            s = 0;\n        },\n                {\n            r = \"{3097, 140}\";\n            s = 0;\n        },\n                {\n            r = \"{3258, 74}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 3341}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {984, 881}}";
+			sepNavSelRange = "{162, 592}";
+			sepNavVisRange = "{0, 1614}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ZIStoreButtonDemo */ = {
+		activeExec = 0;
+		executables = (
+			CABCFBDD11F671D900D7D98A /* ZIStoreButtonDemo */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ZIStoreButtonDemoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {984, 881}}";
+			sepNavSelRange = "{165, 593}";
+			sepNavVisRange = "{0, 933}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ZIStoreButtonDemoViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{2514, 1009}\";\n            s = 0;\n        },\n                {\n            r = \"{3620, 115}\";\n            s = 0;\n        },\n                {\n            r = \"{3772, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{3954, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{4058, 22}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 4088}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1698, 929}}";
+			sepNavSelRange = "{704, 0}";
+			sepNavVisRange = "{0, 2683}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CABCFBDD11F671D900D7D98A /* ZIStoreButtonDemo */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ZIStoreButtonDemo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ZIStoreButtonDemo */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = CABCFBE811F671F800D7D98A /* Code sense */;
+		executables = (
+			CABCFBDD11F671D900D7D98A /* ZIStoreButtonDemo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					806,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 301497796;
+			PBXWorkspaceStateSaveDate = 301497796;
+		};
+		perUserProjectItems = {
+			CABCFCC711F6881300D7D98A /* PBXTextBookmark */ = CABCFCC711F6881300D7D98A /* PBXTextBookmark */;
+			CABCFCC911F6881300D7D98A /* PBXTextBookmark */ = CABCFCC911F6881300D7D98A /* PBXTextBookmark */;
+			CAFFD36411F884B30097DE9A /* PBXTextBookmark */ = CAFFD36411F884B30097DE9A /* PBXTextBookmark */;
+			CAFFD36511F884B30097DE9A /* PBXTextBookmark */ = CAFFD36511F884B30097DE9A /* PBXTextBookmark */;
+			CAFFD36611F884B30097DE9A /* PBXTextBookmark */ = CAFFD36611F884B30097DE9A /* PBXTextBookmark */;
+			CAFFD36711F884B30097DE9A /* PBXTextBookmark */ = CAFFD36711F884B30097DE9A /* PBXTextBookmark */;
+			CAFFD36811F884B30097DE9A /* PBXTextBookmark */ = CAFFD36811F884B30097DE9A /* PBXTextBookmark */;
+			CAFFD36D11F887F80097DE9A /* PBXTextBookmark */ = CAFFD36D11F887F80097DE9A /* PBXTextBookmark */;
+			CAFFD36E11F887F80097DE9A /* PBXTextBookmark */ = CAFFD36E11F887F80097DE9A /* PBXTextBookmark */;
+		};
+		sourceControlManager = CABCFBE711F671F800D7D98A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CABCFBDD11F671D900D7D98A /* ZIStoreButtonDemo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ZIStoreButtonDemo;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CABCFBE711F671F800D7D98A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CABCFBE811F671F800D7D98A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CABCFBEA11F6725800D7D98A /* ZIStoreButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {984, 881}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 892}";
+		};
+	};
+	CABCFBEB11F6725800D7D98A /* ZIStoreButton.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{3771, 2332}\";\n            s = 0;\n        },\n                {\n            r = \"{6149, 51}\";\n            s = 0;\n        },\n                {\n            r = \"{6241, 118}\";\n            s = 0;\n        },\n                {\n            r = \"{6437, 35}\";\n            s = 0;\n        },\n                {\n            r = \"{6493, 22}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 6524}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1236, 1012}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 3658}";
+		};
+	};
+	CABCFCC711F6881300D7D98A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CABCFCC811F6881300D7D98A /* UIButton.h */;
+		name = "UIButton.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 4639;
+		vrLoc = 90;
+	};
+	CABCFCC811F6881300D7D98A /* UIButton.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIButton.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h;
+		sourceTree = "<absolute>";
+	};
+	CABCFCC911F6881300D7D98A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CABCFCCA11F6881300D7D98A /* UIControl.h */;
+		name = "UIControl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 3155;
+		vrLoc = 29;
+	};
+	CABCFCCA11F6881300D7D98A /* UIControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIControl.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h;
+		sourceTree = "<absolute>";
+	};
+	CAFFD36411F884B30097DE9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CABCFBEB11F6725800D7D98A /* ZIStoreButton.m */;
+		name = "ZIStoreButton.m: 8";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 3658;
+		vrLoc = 0;
+	};
+	CAFFD36511F884B30097DE9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CABCFBEA11F6725800D7D98A /* ZIStoreButton.h */;
+		name = "ZIStoreButton.h: 8";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 0;
+	};
+	CAFFD36611F884B30097DE9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ZIStoreButtonDemoViewController.m */;
+		name = "ZIStoreButtonDemoViewController.m: 22";
+		rLen = 0;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 4041;
+		vrLoc = 0;
+	};
+	CAFFD36711F884B30097DE9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ZIStoreButtonDemoViewController.h */;
+		name = "ZIStoreButtonDemoViewController.h: 9";
+		rLen = 593;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 0;
+	};
+	CAFFD36811F884B30097DE9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ZIStoreButtonDemoAppDelegate.m */;
+		name = "ZIStoreButtonDemoAppDelegate.m: 9";
+		rLen = 592;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 3341;
+		vrLoc = 0;
+	};
+	CAFFD36D11F887F80097DE9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ZIStoreButtonDemoAppDelegate.h */;
+		name = "ZIStoreButtonDemoAppDelegate.h: 9";
+		rLen = 606;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 0;
+	};
+	CAFFD36E11F887F80097DE9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ZIStoreButtonDemoAppDelegate.h */;
+		name = "ZIStoreButtonDemoAppDelegate.h: 25";
+		rLen = 0;
+		rLoc = 779;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 0;
+	};
+}
