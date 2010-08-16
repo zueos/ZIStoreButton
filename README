@@ -1,1 +1,3 @@
 A UIButton subclass that mimic the "BUY NOW" button on the iOS App Store.
+
+** I plan on setting up this project to include a static lib so that reusing the button is easier for newbies **
