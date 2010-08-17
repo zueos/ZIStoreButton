@@ -93,70 +93,47 @@
 	[CATransaction begin];
 	[CATransaction setAnimationDuration:0.25];
 	
-	
-	
 	UIColor *blueOne		= [UIColor colorWithRed:0.306 green:0.380 blue:0.547 alpha:1.000];
 	UIColor *blueTwo		= [UIColor colorWithRed:0.258 green:0.307 blue:0.402 alpha:1.000];
 	UIColor *blueThree	    = [UIColor colorWithRed:0.159 green:0.270 blue:0.550 alpha:1.000];
 	UIColor *blueFour		= [UIColor colorWithRed:0.129 green:0.220 blue:0.452 alpha:1.000];
 	
-	NSArray *blueColors  = [NSArray arrayWithObjects:(id)blueOne.CGColor, blueTwo.CGColor, blueThree.CGColor, blueFour.CGColor, nil];
-	NSArray *greenColors = [NSArray arrayWithObjects:(id)[[UIColor colorWithRed:0.482 green:0.674 blue:0.406 alpha:1.000] CGColor], [[UIColor colorWithRed:0.525 green:0.742 blue:0.454 alpha:1.000] CGColor], [[UIColor colorWithRed:0.346 green:0.719 blue:0.183 alpha:1.000] CGColor], [[UIColor colorWithRed:0.299 green:0.606 blue:0.163 alpha:1.000] CGColor], nil];
+	UIColor *greenOne		= [UIColor colorWithRed:0.482 green:0.674 blue:0.406 alpha:1.000];
+	UIColor *greenTwo		= [UIColor colorWithRed:0.525 green:0.742 blue:0.454 alpha:1.000];
+	UIColor *greenThree	    = [UIColor colorWithRed:0.346 green:0.719 blue:0.183 alpha:1.000];
+	UIColor *greenFour		= [UIColor colorWithRed:0.299 green:0.606 blue:0.163 alpha:1.000];
 	
-	if (!selected) {
+	NSArray *blueColors  = [NSArray arrayWithObjects:(id)blueOne.CGColor, blueTwo.CGColor, blueThree.CGColor, blueFour.CGColor, nil];
+	NSArray *greenColors = [NSArray arrayWithObjects:(id)greenOne.CGColor, greenTwo.CGColor, greenThree.CGColor, greenFour.CGColor, nil];
 		
-		CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"colors"];
-		animation.fromValue = greenColors;
-		animation.toValue = blueColors;
-		animation.duration = 0.25;
-		animation.removedOnCompletion = NO;
-		animation.fillMode = kCAFillModeForwards;
-		animation.delegate = self;
+	CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"colors"];
 		
-		[innerLayer3 layoutIfNeeded];
-		[innerLayer3 addAnimation:animation forKey:@"changeToBlue"];
-		
-		for (CALayer *la in self.layer.sublayers) {
-			CGRect cr = la.bounds;
-			cr.size.width -= 50.0;
-			la.bounds = cr;
-			[la layoutIfNeeded];
-		}
-				
-		CGRect cr = self.frame;
-		cr.size.width -= 50.0;
-		self.frame = cr;
-		
-		self.titleEdgeInsets = UIEdgeInsetsMake(2.0, 0.0, 0.0, 0.0);
-		
-	} else {
-		
-		CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"colors"];
-		animation.toValue = greenColors;
-		animation.fromValue = blueColors;
-		animation.duration = 0.25;
-		animation.removedOnCompletion = NO;
-		animation.fillMode = kCAFillModeForwards;
-		
-		[innerLayer3 layoutIfNeeded];
-		[innerLayer3 addAnimation:animation forKey:@"changeToGreen"];
-		
-		for (CALayer *la in self.layer.sublayers) {
-			CGRect cr = la.bounds;
-			cr.size.width += 50.0;
-			la.bounds = cr;
-			[la layoutIfNeeded];
-		}
-		
-		CGRect cr = self.frame;
-		cr.size.width += 50.0;
-		self.frame = cr;
-		
-		self.titleEdgeInsets = UIEdgeInsetsMake(2.0, -50.0, 0.0, 0.0);
-		
+	animation.fromValue = (!self.selected) ? greenColors : blueColors;
+	animation.toValue = (!self.selected) ? blueColors : greenColors;
+	
+	animation.duration = 0.25;
+	animation.removedOnCompletion = NO;
+	animation.fillMode = kCAFillModeForwards;
+	animation.delegate = self;
+	
+	[gradientLayer layoutIfNeeded];
+	[gradientLayer addAnimation:animation forKey:@"changeToBlue"];
+	
+	for (CALayer *la in self.layer.sublayers) {
+		CGRect cr = la.bounds;
+		cr.size.width = (!self.selected) ? cr.size.width - 50.0 : cr.size.width + 50.0;
+		la.bounds = cr;
+		[la layoutIfNeeded];
 	}
+	
+	CGRect cr = self.frame;
+	cr.size.width = (!self.selected) ? cr.size.width - 50.0 : cr.size.width + 50.0;
+	self.frame = cr;
+	
+	self.titleEdgeInsets = (!self.selected) ? UIEdgeInsetsMake(2.0, 0.0, 0.0, 0.0) : UIEdgeInsetsMake(2.0, -50.0, 0.0, 0.0);
+	
+	[CATransaction commit];
 }
-
 
 - (IBAction) touchedUpOutside:(id)sender {
 	if (self.selected) {
