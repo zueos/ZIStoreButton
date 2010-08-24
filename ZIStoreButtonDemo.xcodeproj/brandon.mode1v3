@@ -272,8 +272,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -297,7 +295,7 @@
 							<real>223</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1046 250 1290 959 0 0 2560 1418 </string>
+						<string>59 265 1290 959 0 0 2560 1418 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -315,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ZIStoreButtonDemoViewController.m</string>
+								<string>ZIStoreButton.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,19 +321,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ZIStoreButtonDemoViewController.m</string>
+										<string>ZIStoreButton.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CABF71FB1223EDB400227AD3</string>
+										<string>CABF72671223FAF200227AD3</string>
 										<key>history</key>
 										<array>
-											<string>CAFFD36411F884B30097DE9A</string>
-											<string>CAFFD36511F884B30097DE9A</string>
 											<string>CAFFD36711F884B30097DE9A</string>
 											<string>CAFFD36811F884B30097DE9A</string>
 											<string>CA18DF1512236D5C0038778B</string>
-											<string>CA18DF1D12238BF60038778B</string>
+											<string>CABF723C1223F64400227AD3</string>
+											<string>CABF723D1223F64400227AD3</string>
+											<string>CABF725F1223FAE200227AD3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -349,7 +347,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1045, 913}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1046 250 1290 959 0 0 2560 1418 </string>
+								<string>59 265 1290 959 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -369,7 +367,7 @@
 								<key>Frame</key>
 								<string>{{0, 918}, {1045, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1046 250 1290 959 0 0 2560 1418 </string>
+								<string>59 265 1290 959 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -393,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CABF71FC1223EDB400227AD3</string>
+				<string>CABF72681223FAF200227AD3</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CABF71FD1223EDB400227AD3</string>
+				<string>CABF72691223FAF200227AD3</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,7 +535,7 @@
 		<string>/Users/brandon/Documents/StoreButton/ZIStoreButton/ZIStoreButtonDemo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1046 250 1290 959 0 0 2560 1418 </string>
+	<string>59 265 1290 959 0 0 2560 1418 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -614,7 +612,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CABCFBEF11F6742100D7D98A</string>
-				<string>CABF71FE1223EDB400227AD3</string>
+				<string>CABF726A1223FAF200227AD3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -658,8 +656,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 198}}</string>
-											<string>{{316, 0}, {378, 198}}</string>
+											<string>{{0, 0}, {316, 201}}</string>
+											<string>{{316, 0}, {378, 201}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -674,8 +672,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 198}}</string>
-											<string>{{0, 198}, {694, 183}}</string>
+											<string>{{0, 0}, {694, 201}}</string>
+											<string>{{0, 201}, {694, 180}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -708,7 +706,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 198}}</string>
+									<string>{{316, 0}, {378, 201}}</string>
 									<key>RubberWindowFrame</key>
 									<string>1104 774 694 422 0 0 2560 1418 </string>
 								</dict>
@@ -736,13 +734,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>CAFFD2FD11F87EAF0097DE9A</string>
+				<string>CABF724E1223FAB400227AD3</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>CAFFD2FE11F87EAF0097DE9A</string>
-				<string>CAFFD2FF11F87EAF0097DE9A</string>
-				<string>CAFFD30011F87EAF0097DE9A</string>
-				<string>CAFFD30111F87EAF0097DE9A</string>
-				<string>CAFFD30211F87EAF0097DE9A</string>
+				<string>CABF724F1223FAB400227AD3</string>
+				<string>CABF72501223FAB400227AD3</string>
+				<string>CABF72511223FAB400227AD3</string>
+				<string>CABF72521223FAB400227AD3</string>
+				<string>CABF72531223FAB400227AD3</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -904,7 +902,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>CAFFD30311F87EAF0097DE9A</string>
+				<string>CABF72541223FAB400227AD3</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

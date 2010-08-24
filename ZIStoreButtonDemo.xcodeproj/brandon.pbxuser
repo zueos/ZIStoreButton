@@ -33,13 +33,13 @@
 			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{2522, 1009}\";\n            s = 0;\n        },\n                {\n            r = \"{3628, 115}\";\n            s = 0;\n        },\n                {\n            r = \"{3780, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{3962, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{4066, 22}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 4096}\";\n    s = 0;\n}";
 			sepNavIntBoundsRect = "{{0, 0}, {1698, 929}}";
 			sepNavSelRange = "{1448, 0}";
-			sepNavVisRange = "{0, 2691}";
+			sepNavVisRange = "{41, 2671}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = CABCFBDD11F671D900D7D98A /* ZIStoreButtonDemo */;
-		activeSDKPreference = iphonesimulator4.0;
+		activeSDKPreference = iphonesimulator4.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ZIStoreButtonDemo */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* ZIStoreButtonDemo */,
@@ -73,16 +73,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 304344499;
-			PBXWorkspaceStateSaveDate = 304344499;
+			PBXPerProjectTemplateStateSaveDate = 304347886;
+			PBXWorkspaceStateSaveDate = 304347886;
 		};
 		perUserProjectItems = {
 			CA18DF1512236D5C0038778B = CA18DF1512236D5C0038778B /* PBXTextBookmark */;
-			CA18DF1612236D5C0038778B = CA18DF1612236D5C0038778B /* PBXTextBookmark */;
-			CA18DF1D12238BF60038778B = CA18DF1D12238BF60038778B /* PBXTextBookmark */;
-			CABF71FB1223EDB400227AD3 /* PBXTextBookmark */ = CABF71FB1223EDB400227AD3 /* PBXTextBookmark */;
+			CABF723C1223F64400227AD3 = CABF723C1223F64400227AD3 /* PBXTextBookmark */;
+			CABF723D1223F64400227AD3 = CABF723D1223F64400227AD3 /* PBXTextBookmark */;
+			CABF725F1223FAE200227AD3 = CABF725F1223FAE200227AD3 /* PBXTextBookmark */;
+			CABF72671223FAF200227AD3 /* PBXTextBookmark */ = CABF72671223FAF200227AD3 /* PBXTextBookmark */;
 			CAFFD36411F884B30097DE9A = CAFFD36411F884B30097DE9A /* PBXTextBookmark */;
-			CAFFD36511F884B30097DE9A = CAFFD36511F884B30097DE9A /* PBXTextBookmark */;
 			CAFFD36711F884B30097DE9A = CAFFD36711F884B30097DE9A /* PBXTextBookmark */;
 			CAFFD36811F884B30097DE9A = CAFFD36811F884B30097DE9A /* PBXTextBookmark */;
 		};
@@ -98,26 +98,6 @@
 		rLoc = 779;
 		rType = 0;
 		vrLen = 1130;
-		vrLoc = 0;
-	};
-	CA18DF1612236D5C0038778B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* ZIStoreButtonDemoViewController.m */;
-		name = "ZIStoreButtonDemoViewController.m: 22";
-		rLen = 0;
-		rLoc = 704;
-		rType = 0;
-		vrLen = 4041;
-		vrLoc = 0;
-	};
-	CA18DF1D12238BF60038778B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* ZIStoreButtonDemoViewController.m */;
-		name = "ZIStoreButtonDemoViewController.m: 47";
-		rLen = 0;
-		rLoc = 1448;
-		rType = 0;
-		vrLen = 4049;
 		vrLoc = 0;
 	};
 	CABCFBDD11F671D900D7D98A /* ZIStoreButtonDemo */ = {
@@ -175,21 +155,50 @@
 	};
 	CABCFBEB11F6725800D7D98A /* ZIStoreButton.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{3771, 2332}\";\n            s = 0;\n        },\n                {\n            r = \"{6149, 51}\";\n            s = 0;\n        },\n                {\n            r = \"{6241, 118}\";\n            s = 0;\n        },\n                {\n            r = \"{6437, 35}\";\n            s = 0;\n        },\n                {\n            r = \"{6493, 22}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 6524}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1236, 1012}}";
-			sepNavSelRange = "{145, 0}";
-			sepNavVisRange = "{0, 3658}";
+			sepNavIntBoundsRect = "{{0, 0}, {1236, 1859}}";
+			sepNavSelRange = "{6032, 0}";
+			sepNavVisRange = "{3734, 2467}";
 		};
 	};
-	CABF71FB1223EDB400227AD3 /* PBXTextBookmark */ = {
+	CABF723C1223F64400227AD3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* ZIStoreButtonDemoViewController.m */;
 		name = "ZIStoreButtonDemoViewController.m: 47";
 		rLen = 0;
 		rLoc = 1448;
 		rType = 0;
-		vrLen = 4049;
+		vrLen = 4050;
+		vrLoc = 41;
+	};
+	CABF723D1223F64400227AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CABCFBEA11F6725800D7D98A /* ZIStoreButton.h */;
+		name = "ZIStoreButton.h: 8";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 892;
 		vrLoc = 0;
+	};
+	CABF725F1223FAE200227AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CABCFBEB11F6725800D7D98A /* ZIStoreButton.m */;
+		name = "ZIStoreButton.m: 158";
+		rLen = 0;
+		rLoc = 6147;
+		rType = 0;
+		vrLen = 2467;
+		vrLoc = 3734;
+	};
+	CABF72671223FAF200227AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CABCFBEB11F6725800D7D98A /* ZIStoreButton.m */;
+		name = "ZIStoreButton.m: 151";
+		rLen = 0;
+		rLoc = 6032;
+		rType = 0;
+		vrLen = 2467;
+		vrLoc = 3734;
 	};
 	CAFFD36411F884B30097DE9A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -199,16 +208,6 @@
 		rLoc = 145;
 		rType = 0;
 		vrLen = 3658;
-		vrLoc = 0;
-	};
-	CAFFD36511F884B30097DE9A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CABCFBEA11F6725800D7D98A /* ZIStoreButton.h */;
-		name = "ZIStoreButton.h: 8";
-		rLen = 0;
-		rLoc = 145;
-		rType = 0;
-		vrLen = 892;
 		vrLoc = 0;
 	};
 	CAFFD36711F884B30097DE9A /* PBXTextBookmark */ = {

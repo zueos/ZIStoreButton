@@ -116,8 +116,8 @@
 	animation.fillMode = kCAFillModeForwards;
 	animation.delegate = self;
 	
-	[gradientLayer layoutIfNeeded];
-	[gradientLayer addAnimation:animation forKey:@"changeToBlue"];
+	[innerLayer3 layoutIfNeeded];
+	[innerLayer3 addAnimation:animation forKey:@"changeToBlue"];
 	
 	for (CALayer *la in self.layer.sublayers) {
 		CGRect cr = la.bounds;
