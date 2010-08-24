@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ZIStoreButtonDemoAppDelegate.h</string>
+								<string>ZIStoreButtonDemoViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,21 +323,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ZIStoreButtonDemoAppDelegate.h</string>
+										<string>ZIStoreButtonDemoViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CAFFD36E11F887F80097DE9A</string>
+										<string>CA18DF1712236D5C0038778B</string>
 										<key>history</key>
 										<array>
-											<string>CABCFCC711F6881300D7D98A</string>
-											<string>CABCFCC911F6881300D7D98A</string>
 											<string>CAFFD36411F884B30097DE9A</string>
 											<string>CAFFD36511F884B30097DE9A</string>
-											<string>CAFFD36611F884B30097DE9A</string>
 											<string>CAFFD36711F884B30097DE9A</string>
 											<string>CAFFD36811F884B30097DE9A</string>
-											<string>CAFFD36D11F887F80097DE9A</string>
+											<string>CA18DF1512236D5C0038778B</string>
+											<string>CA18DF1612236D5C0038778B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -395,9 +393,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CAFFD2F311F87DCC0097DE9A</string>
+				<string>CA18DF1812236D5C0038778B</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CAFFD2F411F87DCC0097DE9A</string>
+				<string>CA18DF1912236D5C0038778B</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,12 +533,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CAFFD30C11F87EC40097DE9A</string>
-		<string>CAFFD30511F87EAF0097DE9A</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CABCFBEF11F6742100D7D98A</string>
-		<string>/Users/brandon/Documents/ZIStoreButtonDemo/ZIStoreButtonDemo.xcodeproj</string>
+		<string>/Users/brandon/Documents/StoreButton/ZIStoreButton/ZIStoreButtonDemo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1046 250 1290 959 0 0 2560 1418 </string>
@@ -620,7 +614,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CABCFBEF11F6742100D7D98A</string>
-				<string>CAFFD2F511F87DCC0097DE9A</string>
+				<string>CA18DF1A12236D5C0038778B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
