@@ -44,7 +44,7 @@
 	
 	UILabel *titleLab = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 10.0, 320.0, 35.0)];
 	titleLab.backgroundColor = [UIColor clearColor];
-	titleLab.text = @"ZIStoreButton Control";
+	titleLab.text = @"ZIStoreButton";
 	titleLab.font = [UIFont systemFontOfSize:24.0];
 	titleLab.textAlignment = UITextAlignmentCenter;
 	titleLab.shadowColor = [UIColor colorWithWhite:0.98 alpha:1.0];
