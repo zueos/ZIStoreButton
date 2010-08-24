@@ -16,8 +16,8 @@ cGenerateDSYMFile /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphones
 cTouch /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C1771EE0000000000000132
-t1276604910
+c000000004C494D410000000000000132
+t1279872321
 s306
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
@@ -54,6 +54,119 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0
 c000000004C0471620000000001D47210
 t1275359586
 s30700048
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButton.h
+c000000004C732FA6000000000000037C
+t1282617254
+s892
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButton.m
+c000000004C732FA6000000000000183D
+t1282617254
+s6205
+i"ZIStoreButton.h"
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButtonDemoAppDelegate.h
+c000000004C732FA6000000000000046A
+t1282617254
+s1130
+i<UIKit/UIKit.h>
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButtonDemoAppDelegate.m
+c000000004C732FA60000000000000D0D
+t1282617254
+s3341
+i"ZIStoreButtonDemoAppDelegate.h"
+i"ZIStoreButtonDemoViewController.h"
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButtonDemoViewController.h
+c000000004C732FA600000000000003A5
+t1282617254
+s933
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButtonDemoViewController.m
+c000000004C7335DA0000000000001000
+t1282618842
+s4096
+i"ZIStoreButtonDemoViewController.h"
+i"ZIStoreButton.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/MainWindow.xib
+c000000004C732FA60000000000004EA1
+t1282617254
+s20129
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/ZIStoreButtonDemoViewController.xib
+c000000004C732FA60000000000001A6D
+t1282617254
+s6765
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/ZIStoreButtonDemo_Prefix.pch
+c000000004C732FA600000000000000CB
+t1282617254
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app
+t1282617255
+s238
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app.dSYM
+t1282617254
+s102
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/Info.plist
+t1282617255
+s637
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/MainWindow.nib
+t1282617255
+s1143
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/PkgInfo
+t1282617255
+s8
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo
+t1282617255
+s33688
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemoViewController.nib
+t1282617255
+s795
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButton.o
+t1282617255
+s56684
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemo.LinkFileList
+c000000004C732FA70000000000000284
+t1282617255
+s644
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemoAppDelegate.o
+t1282617255
+s49036
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemoViewController.o
+t1282617255
+s46344
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/main.o
+t1282617255
+s6312
+
+N/Users/brandon/Documents/StoreButton/ZIStoreButton/main.m
+c000000004C732FA7000000000000016F
+t1282617255
+s367
+i<UIKit/UIKit.h>
 
 N/Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButton.h
 c000000004C484D05000000000000037C
@@ -172,14 +285,21 @@ N/var/folders/rT/rT4R5oaYFTarlmLpPBeVYE+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1279671480
 s15232016
 
+N/var/folders/rT/rT4R5oaYFTarlmLpPBeVYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ZIStoreButtonDemo_Prefix-deirspmnubhpkycaqsmbvivqazlf/ZIStoreButtonDemo_Prefix.pch.gch
+t2
+s0
+
 NZIStoreButtonDemo-Info.plist
-c000000004C463A59000000000000038D
-t1279670873
+c000000004C732FA6000000000000038D
+t1282617254
 s909
 
 CCheck dependencies
 r0
 lSLF07#2@18"Check dependencies301499116#301499116#0(0"0(0#1#0"8631221696#0"0#
+
+CCompileC build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButton.o /Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButton.o /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301498078.258379
@@ -194,6 +314,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@74"Compile /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButton.m301498078#301498078#0(0"0(0#0#66"/Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButton.m8630914880#2171"    cd /Users/brandon/Documents/ZIStoreButtonDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-generated-files.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-own-target-headers.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-all-target-headers.hmap -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-project-headers.hmap -F/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator -I/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/include -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources/i386 -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources -include /var/folders/rT/rT4R5oaYFTarlmLpPBeVYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ZIStoreButtonDemo_Prefix-ceslvpevikdydmfojhhteushjtyg/ZIStoreButtonDemo_Prefix.pch -c /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButton.m -o /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButton.o0#
 
+CCompileC build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemoAppDelegate.o /Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButtonDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemoAppDelegate.o /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButtonDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301498019.226548
 e301498019.325151
@@ -206,6 +329,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButtonDemoAppDelegate.m301498019#301498019#0(0"0(0#0#81"/Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButtonDemoAppDelegate.m8632513120#2201"    cd /Users/brandon/Documents/ZIStoreButtonDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-generated-files.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-own-target-headers.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-all-target-headers.hmap -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-project-headers.hmap -F/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator -I/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/include -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources/i386 -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources -include /var/folders/rT/rT4R5oaYFTarlmLpPBeVYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ZIStoreButtonDemo_Prefix-ceslvpevikdydmfojhhteushjtyg/ZIStoreButtonDemo_Prefix.pch -c /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButtonDemoAppDelegate.m -o /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemoAppDelegate.o0#
+
+CCompileC build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemoViewController.o /Users/brandon/Documents/StoreButton/ZIStoreButton/Classes/ZIStoreButtonDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemoViewController.o /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButtonDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301499116.741516
@@ -220,6 +346,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@92"Compile /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButtonDemoViewController.m301499116#301499116#0(0"0(0#0#84"/Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButtonDemoViewController.m8630713440#2207"    cd /Users/brandon/Documents/ZIStoreButtonDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-generated-files.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-own-target-headers.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-all-target-headers.hmap -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-project-headers.hmap -F/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator -I/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/include -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources/i386 -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources -include /var/folders/rT/rT4R5oaYFTarlmLpPBeVYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ZIStoreButtonDemo_Prefix-ceslvpevikdydmfojhhteushjtyg/ZIStoreButtonDemo_Prefix.pch -c /Users/brandon/Documents/ZIStoreButtonDemo/Classes/ZIStoreButtonDemoViewController.m -o /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemoViewController.o0#
 
+CCompileC build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/main.o /Users/brandon/Documents/StoreButton/ZIStoreButton/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/main.o /Users/brandon/Documents/ZIStoreButtonDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301498019.225772
 e301498019.324979
@@ -232,6 +361,12 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/brandon/Documents/ZIStoreButtonDemo/main.m301498019#301498019#0(0"0(0#0#49"/Users/brandon/Documents/ZIStoreButtonDemo/main.m8632742592#2145"    cd /Users/brandon/Documents/ZIStoreButtonDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-generated-files.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-own-target-headers.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-all-target-headers.hmap -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-project-headers.hmap -F/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator -I/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/include -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources/i386 -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources -include /var/folders/rT/rT4R5oaYFTarlmLpPBeVYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ZIStoreButtonDemo_Prefix-ceslvpevikdydmfojhhteushjtyg/ZIStoreButtonDemo_Prefix.pch -c /Users/brandon/Documents/ZIStoreButtonDemo/main.m -o /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/brandon/Documents/StoreButton/ZIStoreButton/MainWindow.xib
+r0
+
+CCompileXIB /Users/brandon/Documents/StoreButton/ZIStoreButton/ZIStoreButtonDemoViewController.xib
+r0
 
 CCompileXIB /Users/brandon/Documents/ZIStoreButtonDemo/MainWindow.xib
 s301498018.903372
@@ -249,6 +384,9 @@ xCompileXIB
 x/Users/brandon/Documents/ZIStoreButtonDemo/ZIStoreButtonDemoViewController.xib
 lSLF07#2@46"CompileXIB ZIStoreButtonDemoViewController.xib301498018#301498019#0(0"0(0#0#78"/Users/brandon/Documents/ZIStoreButtonDemo/ZIStoreButtonDemoViewController.xib8632145344#634"    cd /Users/brandon/Documents/ZIStoreButtonDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemoViewController.nib /Users/brandon/Documents/ZIStoreButtonDemo/ZIStoreButtonDemoViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
+CGenerateDSYMFile /Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app.dSYM /Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo
+r0
+
 CGenerateDSYMFile /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app.dSYM /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo
 s301499116.938235
 e301499116.952099
@@ -257,6 +395,9 @@ xGenerateDSYMFile
 x/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app.dSYM
 x/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo
 lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/ZIStoreButtonDemo.app.dSYM build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo301499116#301499116#0(0"0(0#0#110"/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo8632449632#425"    cd /Users/brandon/Documents/ZIStoreButtonDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo -o /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app.dSYM0#
+
+CLd /Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo normal i386
+r0
 
 CLd /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo normal i386
 s301499116.920802
@@ -267,6 +408,9 @@ x/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreB
 xnormal
 xi386
 lSLF07#2@115"Link /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo301499116#301499116#0(0"0(0#0#0"8632677344#992"    cd /Users/brandon/Documents/ZIStoreButtonDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator -F/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator -filelist /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/Objects-normal/i386/ZIStoreButtonDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/ZIStoreButtonDemo0#
+
+CProcessInfoPlistFile /Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/Info.plist ZIStoreButtonDemo-Info.plist
+r0
 
 CProcessInfoPlistFile /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app/Info.plist ZIStoreButtonDemo-Info.plist
 s301498018.900152
@@ -289,6 +433,12 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@39"Precompile ZIStoreButtonDemo_Prefix.pch301364280#301364280#0(0"0(0#0#71"/Users/brandon/Documents/ZIStoreButtonDemo/ZIStoreButtonDemo_Prefix.pch8820361984#2023"    cd /Users/brandon/Documents/ZIStoreButtonDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-generated-files.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-own-target-headers.hmap -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-all-target-headers.hmap -iquote /Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/ZIStoreButtonDemo-project-headers.hmap -F/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator -I/Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/include -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources/i386 -I/Users/brandon/Documents/ZIStoreButtonDemo/build/ZIStoreButtonDemo.build/Debug-iphonesimulator/ZIStoreButtonDemo.build/DerivedSources -c /Users/brandon/Documents/ZIStoreButtonDemo/ZIStoreButtonDemo_Prefix.pch -o /var/folders/rT/rT4R5oaYFTarlmLpPBeVYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ZIStoreButtonDemo_Prefix-ceslvpevikdydmfojhhteushjtyg/ZIStoreButtonDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/rT/rT4R5oaYFTarlmLpPBeVYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ZIStoreButtonDemo_Prefix-deirspmnubhpkycaqsmbvivqazlf/ZIStoreButtonDemo_Prefix.pch.gch ZIStoreButtonDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/brandon/Documents/StoreButton/ZIStoreButton/build/Debug-iphonesimulator/ZIStoreButtonDemo.app
+r0
 
 CTouch /Users/brandon/Documents/ZIStoreButtonDemo/build/Debug-iphonesimulator/ZIStoreButtonDemo.app
 s301499116.952165
