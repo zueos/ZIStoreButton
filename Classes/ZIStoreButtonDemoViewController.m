@@ -32,7 +32,7 @@
     [super viewDidLoad];
 		
 	ZIStoreButton *button = [[ZIStoreButton alloc] initWithFrame:CGRectMake(0.0, 0.0, 50.0, 22.0)];
-	[button setTitle:@"$0.99" forState:UIControlStateNormal];
+	[button setTitle:@"$1.99" forState:UIControlStateNormal];
 	button.center = self.view.center;
 	
 	CAGradientLayer *bgLayer = [self backgroundLayer];
