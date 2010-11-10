@@ -134,7 +134,7 @@
 	CGFloat newWidth = newSize.width + (ZI_PADDING*2);
 	CGFloat diff = self.frame.size.width-newWidth;
 	
-	NSLog(@"new width %f diff %f", newWidth, diff);
+	//NSLog(@"new width %f diff %f", newWidth, diff);
 	for (CALayer *la in self.layer.sublayers) {
 		CGRect cr = la.bounds;
 		cr.size.width = cr.size.width;
