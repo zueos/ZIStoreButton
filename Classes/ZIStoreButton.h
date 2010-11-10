@@ -26,7 +26,8 @@
 #import <QuartzCore/QuartzCore.h>
 
 #define ZI_BUY_NOW_TITLE @"Buy Now"
-#define ZI_PRICE_TITLE @"$0.99"
+#define ZI_MAX_WIDTH 120.0f
+#define ZI_PADDING 10.0f
 
 typedef void (^ActionBlock)();
 
