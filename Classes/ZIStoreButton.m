@@ -24,13 +24,22 @@
 
 #import "ZIStoreButton.h"
 
+
+
 @implementation ZIStoreButton
 
+-(void)setBuyBlock:(ActionBlock) action {
+	_actionBlock = Block_copy(action);
+}
+
+-(void) callActionBlock:(id)sender{
+	_actionBlock();
+}
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
-		
+		_actionBlock = nil;
 		self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 		
 		self.autoresizesSubviews = YES;
@@ -38,7 +47,7 @@
 		
 		isBlued = NO;
 		
-		[self setTitle:@"Purchase Now" forState:UIControlStateSelected];
+		[self setTitle:ZI_BUY_NOW_TITLE forState:UIControlStateSelected];
 		[self setTitleShadowColor:[UIColor colorWithWhite:0.200 alpha:1.000] forState:UIControlStateNormal];
 		[self setTitleShadowColor:[UIColor colorWithWhite:0.200 alpha:1.000] forState:UIControlStateSelected];
 		[self.titleLabel setShadowOffset:CGSizeMake(0.0, -0.6)];
@@ -119,18 +128,21 @@
 	[innerLayer3 layoutIfNeeded];
 	[innerLayer3 addAnimation:animation forKey:@"changeToBlue"];
 	
+	
 	for (CALayer *la in self.layer.sublayers) {
 		CGRect cr = la.bounds;
-		cr.size.width = (!self.selected) ? cr.size.width - 50.0 : cr.size.width + 50.0;
+		cr.size.width = cr.size.width;
+		//cr.size.width = (!self.selected) ? cr.size.width - 50.0 : cr.size.width + 50.0;
 		la.bounds = cr;
 		[la layoutIfNeeded];
 	}
 	
 	CGRect cr = self.frame;
-	cr.size.width = (!self.selected) ? cr.size.width - 50.0 : cr.size.width + 50.0;
+	cr.size.width = cr.size.width;
+	//cr.size.width = (!self.selected) ? cr.size.width - 50.0 : cr.size.width + 50.0;
 	self.frame = cr;
 	
-	self.titleEdgeInsets = (!self.selected) ? UIEdgeInsetsMake(2.0, 0.0, 0.0, 0.0) : UIEdgeInsetsMake(2.0, -50.0, 0.0, 0.0);
+	//self.titleEdgeInsets = (!self.selected) ? UIEdgeInsetsMake(2.0, 0.0, 0.0, 0.0) : UIEdgeInsetsMake(2.0, -50.0, 0.0, 0.0);
 	
 	[CATransaction commit];
 }
@@ -144,9 +156,11 @@
 
 - (IBAction) pressButton:(id)sender {
 	if (isBlued) {
+		[self callActionBlock:sender];
 		[sender setSelected:NO];
 		isBlued = NO;
 	} else {
+		
 		[sender setSelected:YES];
 		isBlued = YES;
 	}
@@ -154,13 +168,14 @@
 
 
 - (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag {
-	
+#ifdef DEBUG
 	NSLog(@"Animation Did Stop");
-
+#endif
 }
 
 
 - (void)dealloc {
+	Block_release(_actionBlock);
     [super dealloc];
 }
 

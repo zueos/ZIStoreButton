@@ -25,10 +25,19 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
+#define ZI_BUY_NOW_TITLE @"Buy Now"
+#define ZI_PRICE_TITLE @"$0.99"
+
+typedef void (^ActionBlock)();
+
 @interface ZIStoreButton : UIButton 
 {
 	CAGradientLayer *innerLayer3;
 	BOOL isBlued;
+	ActionBlock _actionBlock;
 }
+
+-(void)setBuyBlock:(ActionBlock)action;
+
 
 @end
