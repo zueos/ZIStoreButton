@@ -53,7 +53,6 @@
 		[self.titleLabel setShadowOffset:CGSizeMake(0.0, -0.6)];
 		[self.titleLabel setFont:[UIFont boldSystemFontOfSize:12.0]];
 		self.titleLabel.textColor = [UIColor colorWithWhite:0.902 alpha:1.000];
-		//self.titleEdgeInsets = UIEdgeInsetsMake(2.0, 0.0, 0.0, 0.0);
 		
 		[self addTarget:self action:@selector(touchedUpOutside:) forControlEvents:UIControlEventTouchUpOutside];
 		[self addTarget:self action:@selector(pressButton:) forControlEvents:UIControlEventTouchUpInside];
@@ -134,12 +133,10 @@
 	CGFloat newWidth = newSize.width + (ZI_PADDING*2);
 	CGFloat diff = self.frame.size.width-newWidth;
 	
-	//NSLog(@"new width %f diff %f", newWidth, diff);
 	for (CALayer *la in self.layer.sublayers) {
 		CGRect cr = la.bounds;
 		cr.size.width = cr.size.width;
 		cr.size.width = newWidth;
-		//cr.size.width = (!self.selected) ? cr.size.width - 50.0 : cr.size.width + 50.0;
 		la.bounds = cr;
 		[la layoutIfNeeded];
 	}
@@ -147,11 +144,8 @@
 	CGRect cr = self.frame;
 	cr.size.width = cr.size.width;
 	cr.size.width = newWidth;
-	//cr.size.width = (!self.selected) ? cr.size.width - 50.0 : cr.size.width + 50.0;
 	self.frame = cr;
-	self.titleEdgeInsets = UIEdgeInsetsMake(2.0, self.titleEdgeInsets.left+diff, 0.0, 0.0);
-	//self.titleEdgeInsets = (!self.selected) ? UIEdgeInsetsMake(2.0, 0.0, 0.0, 0.0) : UIEdgeInsetsMake(2.0, -50.0, 0.0, 0.0);
-	
+	self.titleEdgeInsets = UIEdgeInsetsMake(2.0, self.titleEdgeInsets.left+diff, 0.0, 0.0);	
 	[CATransaction commit];
 }
 
