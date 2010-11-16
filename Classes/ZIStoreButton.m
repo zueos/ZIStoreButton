@@ -129,7 +129,7 @@
 	
 	NSString *title = (self.selected ? [self titleForState:UIControlStateSelected] : [self titleForState:UIControlStateNormal]);
 	CGSize constr = (CGSize){.height = self.frame.size.height, .width = ZI_MAX_WIDTH};
-	CGSize newSize = [title sizeWithFont:self.font constrainedToSize:constr lineBreakMode:UILineBreakModeMiddleTruncation];
+	CGSize newSize = [title sizeWithFont:self.titleLabel.font constrainedToSize:constr lineBreakMode:UILineBreakModeMiddleTruncation];
 	CGFloat newWidth = newSize.width + (ZI_PADDING*2);
 	CGFloat diff = self.frame.size.width-newWidth;
 	
