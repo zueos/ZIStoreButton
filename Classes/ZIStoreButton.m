@@ -28,6 +28,8 @@
 
 @implementation ZIStoreButton
 
+@synthesize userInfo;
+
 -(void)setBuyBlock:(ActionBlock) action {
 	_actionBlock = Block_copy(action);
 }
@@ -178,6 +180,7 @@
 
 - (void)dealloc {
 	Block_release(_actionBlock);
+	self.userInfo = nil;
     [super dealloc];
 }
 
