@@ -27,28 +27,18 @@
 
 #define ZI_BUY_NOW_TITLE @"Buy Now"
 #define ZI_MAX_WIDTH 120.0f
-
 #define ZI_PADDING 10.0f
 
-#if NS_BLOCKS_AVAILABLE
 typedef void (^ActionBlock)();
-#endif
 
 @interface ZIStoreButton : UIButton 
 {
 	CAGradientLayer *innerLayer3;
 	BOOL isBlued;
-#if NS_BLOCKS_AVAILABLE
 	ActionBlock _actionBlock;
-#endif
-	id userInfo;
 }
 
-@property (nonatomic, retain) id userInfo;
-
-#if NS_BLOCKS_AVAILABLE
 -(void)setBuyBlock:(ActionBlock)action;
-#endif
 
 
 @end
